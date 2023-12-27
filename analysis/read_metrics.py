@@ -82,25 +82,29 @@ def print_summary(runs, budget, verbose):
 
 
 read_stats(
-    'logdir/crafter_reward-dreamerv2',
-    'scores', 'crafter_reward', 'dreamerv2')
+  "examples/logdir/crafter_noreward-random/0",
+  "scores", "crafter_noreward", "random", budget=1000)
 
-read_stats(
-    'logdir/crafter_reward-ppo',
-    'scores', 'crafter_reward', 'ppo')
+# read_stats(
+#     'logdir/crafter_reward-dreamerv2',
+#     'scores', 'crafter_reward', 'dreamerv2')
 
-read_stats(
-    'logdir/crafter_reward-rainbow',
-    'scores', 'crafter_reward', 'rainbow')
+# read_stats(
+#     'logdir/crafter_reward-ppo',
+#     'scores', 'crafter_reward', 'ppo')
 
-read_stats(
-    'logdir/crafter_noreward-unsup_plan2explore',
-    'scores', 'crafter_noreward', 'unsup_plan2explore')
+# read_stats(
+#     'logdir/crafter_reward-rainbow',
+#     'scores', 'crafter_reward', 'rainbow')
 
-read_stats(
-    'logdir/crafter_noreward-unsup_rnd',
-    'scores', 'crafter_noreward', 'unsup_rnd')
+# read_stats(
+#     'logdir/crafter_noreward-unsup_plan2explore',
+#     'scores', 'crafter_noreward', 'unsup_plan2explore')
 
-read_stats(
-    'logdir/crafter_noreward-random',
-    'scores', 'crafter_noreward', 'random')
+# read_stats(
+#     'logdir/crafter_noreward-unsup_rnd',
+#     'scores', 'crafter_noreward', 'unsup_rnd')
+
+# read_stats(
+#     'logdir/crafter_noreward-random',
+#     'scores', 'crafter_noreward', 'random')

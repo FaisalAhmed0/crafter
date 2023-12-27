@@ -54,17 +54,17 @@ def plot_reward(inpaths, outpath, legend, colors, cols=4, budget=1e6):
   print(f'Saved {outpath}')
 
 
-inpaths = [
-    'scores/crafter_reward-dreamerv2.json',
-    'scores/crafter_reward-rainbow.json',
-    'scores/crafter_reward-ppo.json',
-    'scores/crafter_noreward-random.json',
-]
-legend = {
-    'dreamerv2': 'DreamerV2',
-    'rainbow': 'Rainbow',
-    'ppo': 'PPO',
-    'random': 'Random',
-}
-colors = ['#377eb8', '#4daf4a', '#984ea3', '#6a554d']
-plot_reward(inpaths, 'plots/reward.pdf', legend, colors)
+# inpaths = [
+#     'scores/crafter_reward-dreamerv2.json',
+#     'scores/crafter_reward-rainbow.json',
+#     'scores/crafter_reward-ppo.json',
+#     'scores/crafter_noreward-random.json',
+# ]
+# legend = {
+#     'dreamerv2': 'DreamerV2',
+#     'rainbow': 'Rainbow',
+#     'ppo': 'PPO',
+#     'random': 'Random',
+# }
+# colors = ['#377eb8', '#4daf4a', '#984ea3', '#6a554d']
+# plot_reward(inpaths, 'plots/reward.pdf', legend, colors)

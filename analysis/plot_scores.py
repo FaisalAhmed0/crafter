@@ -46,49 +46,64 @@ def plot_scores(inpaths, outpath, legend, colors, budget=1e6, ylim=None):
   print(f'Saved {outpath}')
 
 
-inpaths = [
-    'scores/crafter_reward-human.json',
-    'scores/crafter_reward-dreamerv2.json',
-    'scores/crafter_reward-ppo.json',
-    'scores/crafter_reward-rainbow.json',
-    'scores/crafter_noreward-unsup_plan2explore.json',
-    'scores/crafter_noreward-unsup_rnd.json',
-    'scores/crafter_noreward-random.json',
-]
-legend = {
-    'human': 'Human Experts',
-    'dreamerv2': 'DreamerV2',
-    'ppo': 'PPO',
-    'rainbow': 'Rainbow',
-    'unsup_plan2explore': 'Plan2Explore\n(Unsup)',
-    'unsup_rnd': 'RND\n(Unsup)',
-    'random': 'Random',
-}
-colors = [
-    '#cccccc',
-    '#377eb8', '#5fc35d', '#984ea3',
-    '#bf3217', '#de9f42', '#6a554d',
-]
-plot_scores(inpaths, 'plots/scores-human.pdf', legend, colors, ylim=100)
+##### Example after running the random agent"
+# inpaths = [
+#   "scores/crafter_noreward-random.json"
+# ]
+# legend = {
+#   "random": "Random"
+# }
+# colors = [
+#   '#cccccc',
+# ]
+# plot_scores(inpaths, 'plots/code-testing.pdf', legend, colors, ylim=100)
+##### Example after running the random agent"
 
-inpaths = [
-    'scores/crafter_reward-dreamerv2.json',
-    'scores/crafter_reward-ppo.json',
-    'scores/crafter_reward-rainbow.json',
-    'scores/crafter_noreward-unsup_plan2explore.json',
-    'scores/crafter_noreward-unsup_rnd.json',
-    'scores/crafter_noreward-random.json',
-]
-legend = {
-    'dreamerv2': 'DreamerV2',
-    'ppo': 'PPO',
-    'rainbow': 'Rainbow',
-    'unsup_plan2explore': 'Plan2Explore\n(Unsup)',
-    'unsup_rnd': 'RND\n(Unsup)',
-    'random': 'Random',
-}
-colors = [
-    '#377eb8', '#5fc35d', '#984ea3',
-    '#bf3217', '#de9f42', '#6a554d',
-]
-plot_scores(inpaths, 'plots/scores-agents.pdf', legend, colors, ylim=12)
+
+# inpaths = [
+#     'scores/crafter_reward-human.json',
+#     'scores/crafter_reward-dreamerv2.json',
+#     'scores/crafter_reward-ppo.json',
+#     'scores/crafter_reward-rainbow.json',
+#     'scores/crafter_noreward-unsup_plan2explore.json',
+#     'scores/crafter_noreward-unsup_rnd.json',
+#     'scores/crafter_noreward-random.json',
+# ]
+# legend = {
+#     'human': 'Human Experts',
+#     'dreamerv2': 'DreamerV2',
+#     'ppo': 'PPO',
+#     'rainbow': 'Rainbow',
+#     'unsup_plan2explore': 'Plan2Explore\n(Unsup)',
+#     'unsup_rnd': 'RND\n(Unsup)',
+#     'random': 'Random',
+# }
+# colors = [
+#     '#cccccc',
+#     '#377eb8', '#5fc35d', '#984ea3',
+#     '#bf3217', '#de9f42', '#6a554d',
+# ]
+
+# plot_scores(inpaths, 'plots/scores-human.pdf', legend, colors, ylim=100)
+
+# inpaths = [
+#     'scores/crafter_reward-dreamerv2.json',
+#     'scores/crafter_reward-ppo.json',
+#     'scores/crafter_reward-rainbow.json',
+#     'scores/crafter_noreward-unsup_plan2explore.json',
+#     'scores/crafter_noreward-unsup_rnd.json',
+#     'scores/crafter_noreward-random.json',
+# ]
+# legend = {
+#     'dreamerv2': 'DreamerV2',
+#     'ppo': 'PPO',
+#     'rainbow': 'Rainbow',
+#     'unsup_plan2explore': 'Plan2Explore\n(Unsup)',
+#     'unsup_rnd': 'RND\n(Unsup)',
+#     'random': 'Random',
+# }
+# colors = [
+#     '#377eb8', '#5fc35d', '#984ea3',
+#     '#bf3217', '#de9f42', '#6a554d',
+# ]
+# plot_scores(inpaths, 'plots/scores-agents.pdf', legend, colors, ylim=12)

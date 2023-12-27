@@ -8,7 +8,7 @@ parser.add_argument('--outdir', default='logdir/crafter_noreward-random/0')
 parser.add_argument('--steps', type=float, default=1e6)
 args = parser.parse_args()
 
-env = crafter.Env()
+env = crafter.Env(length=100)
 env = crafter.Recorder(
     env, args.outdir,
     save_stats=True,

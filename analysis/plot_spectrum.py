@@ -48,28 +48,28 @@ def plot_spectrum(inpaths, outpath, legend, colors, budget=1e6, sort=False):
   print(f'Saved {outpath}')
 
 
-inpaths = [
-    'scores/crafter_reward-dreamerv2.json',
-    'scores/crafter_reward-ppo.json',
-    'scores/crafter_reward-rainbow.json',
-]
-legend = {
-    'dreamerv2': 'DreamerV2',
-    'ppo': 'PPO',
-    'rainbow': 'Rainbow',
-}
-colors = ['#377eb8', '#5fc35d', '#984ea3']
-plot_spectrum(inpaths, 'plots/spectrum-reward.pdf', legend, colors)
+# inpaths = [
+#     'scores/crafter_reward-dreamerv2.json',
+#     'scores/crafter_reward-ppo.json',
+#     'scores/crafter_reward-rainbow.json',
+# ]
+# legend = {
+#     'dreamerv2': 'DreamerV2',
+#     'ppo': 'PPO',
+#     'rainbow': 'Rainbow',
+# }
+# colors = ['#377eb8', '#5fc35d', '#984ea3']
+# plot_spectrum(inpaths, 'plots/spectrum-reward.pdf', legend, colors)
 
-inpaths = [
-    'scores/crafter_noreward-unsup_plan2explore.json',
-    'scores/crafter_noreward-unsup_rnd.json',
-    'scores/crafter_noreward-random.json',
-]
-legend = {
-    'unsup_plan2explore': 'Plan2Explore',
-    'unsup_rnd': 'RND',
-    'random': 'Random',
-}
-colors = ['#bf3217', '#de9f42', '#6a554d']
-plot_spectrum(inpaths, 'plots/spectrum-noreward.pdf', legend, colors)
+# inpaths = [
+#     'scores/crafter_noreward-unsup_plan2explore.json',
+#     'scores/crafter_noreward-unsup_rnd.json',
+#     'scores/crafter_noreward-random.json',
+# ]
+# legend = {
+#     'unsup_plan2explore': 'Plan2Explore',
+#     'unsup_rnd': 'RND',
+#     'random': 'Random',
+# }
+# colors = ['#bf3217', '#de9f42', '#6a554d']
+# plot_spectrum(inpaths, 'plots/spectrum-noreward.pdf', legend, colors)

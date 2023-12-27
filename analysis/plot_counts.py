@@ -43,26 +43,26 @@ def plot_counts(
   print(f'Saved {outpath}')
 
 
-plot_counts(
-    'scores/crafter_reward-dreamerv2.json',
-    'plots/counts-dreamerv2.pdf', '#377eb8')
+# plot_counts(
+#     'scores/crafter_reward-dreamerv2.json',
+#     'plots/counts-dreamerv2.pdf', '#377eb8')
 
-plot_counts(
-    'scores/crafter_reward-ppo.json',
-    'plots/counts-ppo.pdf', '#5fc35d')
+# plot_counts(
+#     'scores/crafter_reward-ppo.json',
+#     'plots/counts-ppo.pdf', '#5fc35d')
 
-plot_counts(
-    'scores/crafter_reward-rainbow.json',
-    'plots/counts-rainbow.pdf', '#984ea3')
+# plot_counts(
+#     'scores/crafter_reward-rainbow.json',
+#     'plots/counts-rainbow.pdf', '#984ea3')
 
-plot_counts(
-    'scores/crafter_noreward-unsup_plan2explore.json',
-    'plots/counts-unsup_plan2explore.pdf', '#bf3217')
+# plot_counts(
+#     'scores/crafter_noreward-unsup_plan2explore.json',
+#     'plots/counts-unsup_plan2explore.pdf', '#bf3217')
 
-plot_counts(
-    'scores/crafter_noreward-unsup_rnd.json',
-    'plots/counts-unsup_rnd.pdf', '#de9f42')
+# plot_counts(
+#     'scores/crafter_noreward-unsup_rnd.json',
+#     'plots/counts-unsup_rnd.pdf', '#de9f42')
 
-plot_counts(
-    'scores/crafter_noreward-random.json',
-    'plots/counts-random.pdf', '#6a554d')
+# plot_counts(
+#     'scores/crafter_noreward-random.json',
+#     'plots/counts-random.pdf', '#6a554d')
