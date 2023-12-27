@@ -9,7 +9,7 @@ import common
 def plot_spectrum(inpaths, outpath, legend, colors, budget=1e6, sort=False):
   runs = common.load_runs(inpaths, budget)
   percents, methods, seeds, tasks = common.compute_success_rates(
-      runs, budget, sortby=sort and legend and list(legend.keys())[0])
+      runs, budget, sortby=None)
   if not legend:
     methods = sorted(set(run['method'] for run in runs))
     legend = {x: x.replace('_', ' ').title() for x in methods}
