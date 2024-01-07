@@ -119,10 +119,8 @@ class Env(BaseClass):
 
   def render(self, size=None):
     size = size or self._size
-    print("size")
-    print(size)
-    print(self._view)
-    unit = size // self._view
+    # in original code use size, this is to make it work with surprise adapt code
+    unit = self._size // self._view
     canvas = np.zeros(tuple(size) + (3,), np.uint8)
     local_view = self._local_view(self._player, unit)
     item_view = self._item_view(self._player.inventory, unit)
