@@ -119,6 +119,8 @@ class Env(BaseClass):
 
   def render(self, size=None):
     size = size or self._size
+    print("size")
+    print(size)
     unit = size // self._view
     canvas = np.zeros(tuple(size) + (3,), np.uint8)
     local_view = self._local_view(self._player, unit)

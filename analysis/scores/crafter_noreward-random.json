@@ -1,1 +1,182 @@
-[{"task": "crafter_noreward", "method": "random", "seed": "0", "xs": [190, 375, 578, 759, 976], "reward": [2.1, 0.09999999999999998, 2.1, 1.1, 1.1], "length": [190, 185, 203, 181, 217], "achievement_collect_coal": [0, 0, 0, 0, 0], "achievement_collect_diamond": [0, 0, 0, 0, 0], "achievement_collect_drink": [0, 0, 0, 0, 0], "achievement_collect_iron": [0, 0, 0, 0, 0], "achievement_collect_sapling": [2, 0, 1, 0, 0], "achievement_collect_stone": [0, 0, 0, 0, 0], "achievement_collect_wood": [0, 0, 0, 1, 1], "achievement_defeat_skeleton": [0, 0, 0, 0, 0], "achievement_defeat_zombie": [0, 0, 0, 0, 0], "achievement_eat_cow": [0, 0, 0, 0, 0], "achievement_eat_plant": [0, 0, 0, 0, 0], "achievement_make_iron_pickaxe": [0, 0, 0, 0, 0], "achievement_make_iron_sword": [0, 0, 0, 0, 0], "achievement_make_stone_pickaxe": [0, 0, 0, 0, 0], "achievement_make_stone_sword": [0, 0, 0, 0, 0], "achievement_make_wood_pickaxe": [0, 0, 0, 0, 0], "achievement_make_wood_sword": [0, 0, 0, 0, 0], "achievement_place_furnace": [0, 0, 0, 0, 0], "achievement_place_plant": [2, 0, 1, 0, 0], "achievement_place_stone": [0, 0, 0, 0, 0], "achievement_place_table": [0, 0, 0, 0, 0], "achievement_wake_up": [3, 3, 3, 2, 4]}]
+[
+    {
+        "task": "crafter_noreward",
+        "method": "random",
+        "seed": "0",
+        "xs": [
+            190,
+            375,
+            578,
+            759,
+            976
+        ],
+        "reward": [
+            2.1,
+            0.09999999999999998,
+            2.1,
+            1.1,
+            1.1
+        ],
+        "length": [
+            190,
+            185,
+            203,
+            181,
+            217
+        ],
+        "achievement_collect_coal": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "achievement_collect_diamond": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "achievement_collect_drink": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "achievement_collect_iron": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "achievement_collect_sapling": [
+            2,
+            0,
+            1,
+            0,
+            0
+        ],
+        "achievement_collect_stone": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "achievement_collect_wood": [
+            0,
+            0,
+            0,
+            1,
+            1
+        ],
+        "achievement_defeat_skeleton": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "achievement_defeat_zombie": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "achievement_eat_cow": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "achievement_eat_plant": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "achievement_make_iron_pickaxe": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "achievement_make_iron_sword": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "achievement_make_stone_pickaxe": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "achievement_make_stone_sword": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "achievement_make_wood_pickaxe": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "achievement_make_wood_sword": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "achievement_place_furnace": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "achievement_place_plant": [
+            2,
+            0,
+            1,
+            0,
+            0
+        ],
+        "achievement_place_stone": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "achievement_place_table": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "achievement_wake_up": [
+            3,
+            3,
+            3,
+            2,
+            4
+        ]
+    }
+]
