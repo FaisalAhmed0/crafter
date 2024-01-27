@@ -118,7 +118,7 @@ class Env(BaseClass):
     return obs, reward, done, info
 
   def render(self, size=None):
-    size = (512, 512)
+    size = (128, 128)
     # in original code use size, this is to make it work with surprise adapt code
     unit = size // self._view
     canvas = np.zeros(tuple(size) + (3,), np.uint8)
